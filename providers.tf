@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = 
+  region  = var.my_bucket_region
   profile = ""
   # Configuration options
 }
